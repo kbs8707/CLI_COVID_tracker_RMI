@@ -12,7 +12,7 @@ It is recommended to launch the application using Intellij.
 First you will need to start rmiregistry before running the application.
 
 To run the rmiregistry navigates to project directory, open Command Console:
-```shell
+```
 start rmiregistry
 ```
 Once rmiregistry  is running you can start the application.
@@ -21,14 +21,14 @@ Note: The TrackerServer needs to be running first before TrackerClient.
 
 ## Usage
 Once the client is launched it will display welcome message and will be prompted to enter a command.
-```shell
+```
 Welcome to the COVID tracker app, enter /help for help, enter /quit to exit
 Enter:
 ```
 
 Display help
 
-```shell
+```
 Enter:/help
 /total | obtains up-to-date COVID information
 /continent <continent-name> | obtains all country information for specified continent
@@ -39,7 +39,7 @@ Enter:/help
 ```
 
 Display total
-```shell
+```
 Enter:/total
 Total cases: 252101412
 Today cases: 534350.0
